@@ -1,0 +1,55 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Section Styling */
+.section {
+    padding: 60px 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+/* Social Icons */
+.social-icons a {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.social-icons a:hover {
+    color: #f4a261;
+}
+
+/* Form Styling */
+.form-control {
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+button[type="submit"]:hover {
+    background-color: #f4a261;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .social-icons {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+}
